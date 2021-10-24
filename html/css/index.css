@@ -1,0 +1,42 @@
+.bodyclass {
+    background-image: url("/images/rps2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: contain; /* Resize the background image to cover the entire container */
+    background-color: #00887D;
+    height: 100vh;
+}
+
+.winner{
+    color: gold
+}
+
+.row {
+    width: 100%;
+}
+
+.container {
+    margin-top: -2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.bttnn {
+    background-color: #FF7310;
+}
+.bttnn:focus {
+    background-color: #FF7310;
+}
+.bttnn:hover {
+    background-color: #00887D;
+}
+
+
+table {
+    opacity: 0.9;
+}
